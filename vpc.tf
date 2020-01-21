@@ -2,7 +2,7 @@ module "vpc" {
   source  = "app.terraform.io/echan-training/vpc/aws"
   version = "2.23.0"
 
-  name = "my-vpc"
+  name = "my-vpc2"
   cidr = "10.0.0.0/16"
 
   azs             = ["eu-west-1a", "eu-west-1b", "eu-west-1c"]
